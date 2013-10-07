@@ -1,0 +1,79 @@
+/* Base */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* Layout */
+.weather {
+  width: 320px;
+  height: 568px;
+  background: url(../img/thunderstorm.jpg) 0 0 no-repeat;
+  margin: 100px auto;
+}
+
+.group {
+  padding: 15px;
+  border-bottom: 1px solid #b1dafa;
+  /*text-align: right;*/
+}
+
+/* Now */
+.now {
+  padding: 60px 0 30px 0;
+  text-align: center;
+}
+
+.now h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.now h2 {
+  font-size: 72px;
+}
+
+.clear {clear: both;}
+
+/* Today */
+.hour{
+   padding: 0px 10px;
+   margin-right: 5px;
+   text-align: left;
+}
+
+.week h4 {
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: right;
+  padding: 0px 25px;
+}
+
+ 
+/*Images Sunny Rainy Cloudy no MeatBalls*/
+.rain {background: url(../img/icon_rain.png) 0 0 no-repeat;
+        padding:10px 10px;
+        margin: 5px;
+        float: left;
+
+}
+
+.cloudy {background: url(../img/icon_cloudy.png) 0 0 no-repeat;
+          padding:10px 10px;
+          margin: 5px;
+          float: left;
+
+}
+.sunny {background: url(../img/icon_sunny.png) 0 0 no-repeat;
+          padding:10px 10px;
+          margin-left: 5px;
+          float: left;
+
+}
+
+/*img { float: left; margin-right: 30px;
+          padding-bottom: 30px; }*/
+
