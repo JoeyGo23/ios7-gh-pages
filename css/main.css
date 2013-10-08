@@ -17,8 +17,8 @@ body {
 .group {
   padding: 15px;
   border-bottom: 1px solid #b1dafa;
-  /*text-align: right;*/
-}
+  text-align: right;
+ }
 
 /* Now */
 .now {
@@ -37,43 +37,42 @@ body {
 
 .clear {clear: both;}
 
-/* Today */
-.hour{
-   padding: 0px 10px;
-   margin-right: 5px;
-   text-align: left;
-}
-
-.week h4 {
+/* today */
+.today h3{
   float: left;
-  margin-right: 50px;
-  margin-left: 50px;
-  text-align: right;
-  padding: 0px 25px;
 }
 
- 
-/*Images Sunny Rainy Cloudy no MeatBalls*/
-.rain {background: url(../img/icon_rain.png) 0 0 no-repeat;
-        padding:10px 10px;
-        margin: 5px;
-        float: left;
-
+/*hour*/
+.hour{
+   float: left;
+   text-align: center;
+   width: 55px;
+   background: url(../img/icon_sunny.png) center no-repeat ;
 }
 
-.cloudy {background: url(../img/icon_cloudy.png) 0 0 no-repeat;
-          padding:10px 10px;
-          margin: 5px;
-          float: left;
-
-}
-.sunny {background: url(../img/icon_sunny.png) 0 0 no-repeat;
-          padding:10px 10px;
-          margin-left: 5px;
-          float: left;
-
+.day h4 {
+  float: left;
 }
 
-/*img { float: left; margin-right: 30px;
-          padding-bottom: 30px; }*/
+.hour h4 {
+   margin-bottom: 40px; 
+}
+/*hourly images*/
 
+
+.hour.rain {background: url(../img/icon_rain.png) center no-repeat;
+}
+
+.hour.cloudy {background: url(../img/icon_cloudy.png) center no-repeat;
+}
+
+/*sunny all day*/
+.day {background: url(../img/icon_sunny.png)  right no-repeat;
+  padding: 10px 30px 10px 0px;
+}
+
+.day.rain {background: url(../img/icon_rain.png) right no-repeat;
+}
+
+.day.cloudy {background: url(../img/icon_cloudy.png) right right no-repeat;
+}
